@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 
 export const Login = () => {
     return (
-    <div className='contenedorprncipal'>
+    <div className='.contenedorprncipal'>
 
       <div className="contenedorperfil">
       <img

@@ -20,7 +20,7 @@ return (
        
       </li>
 
-      <a className="personicon" href="/">
+      <a className="personicon" href="/login">
           <MdPersonOutline size={40} />
         </a>
 

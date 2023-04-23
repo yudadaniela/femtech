@@ -40,6 +40,7 @@ justify-content: center;
 .contenedorperfil{
     display: flex;
     justify-content: space-between;
+    background-color: #C9C7C7;
 
     
 }
