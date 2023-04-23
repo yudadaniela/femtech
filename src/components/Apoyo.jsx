@@ -4,7 +4,7 @@ import Banner from '../assets/apoyoimage.png'
 import '../styles/apoyo.css'
 import Finanzas from "../assets/Finanzas.jpg"
 import Abogada from "../assets/abogada.jpg"
-import Psicologia from "../assets/psicologia.jpg"
+import Psicologia from "../assets/abogada.jpg"
 
 
 export const Apoyo = () => {
