@@ -5,6 +5,8 @@ import { Apoyo } from './components/Apoyo'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Login from './components/Login'
 import Footer from './components/Footer'
+import Evento from './components/Evento'
+import Talento from './components/Talento'
 
 function App() {
 
@@ -17,9 +19,12 @@ function App() {
      <Route path='/' element={<Home/>}></Route>
      <Route path='/login' element={<Login/>}></Route>
      <Route path='/apoyo' element={<Apoyo/>}></Route>
+     <Route path='/networking' element={<Talento/>}></Route>
+     <Route path='/eventos' element={<Evento/>}></Route>
     </Routes>
     </BrowserRouter>
     <Footer />
+
     </>
   )
 }

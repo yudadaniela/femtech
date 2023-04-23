@@ -1,0 +1,88 @@
+.padre-contain{
+    background-color: #E6E6E6;
+}
+
+#tituloh1, #parrafoh1{
+  display: inline;
+  font-size: 24px;
+  margin: 0;
+}
+#parrafo{
+  font-size: 16px;
+  color:rgba(0, 0, 0, 1)!important;
+
+
+}
+
+#buscar {
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #000;
+    padding: 8px;
+    color: black;
+
+  }
+.contain-title {
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    
+  }
+  
+  hr{
+    color: #E6E6E6;
+  }
+  
+  .children__title {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+
+  }
+
+
+.titulos{
+    position: absolute;
+}
+
+#tituloh1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.5px !important;
+    line-height: 150%;
+    /* identical to box height, or 91px */
+    
+    color:rgba(116, 116, 116, 0.21);
+    letter-spacing: -0.019em;
+    display: block;
+    margin-bottom: 3hv;
+    margin-top: 30px; /* Ajusta el margen superior para que se separe del título 2 */
+    margin-left: 100px; /* Ajusta el margen izquierdo para que esté a la derecha del título 2 */
+  }
+
+
+#tituloh2 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.5px;
+    line-height: 150%;
+    /* identical to box height, or 91px */
+    
+    color: #321473;
+    letter-spacing: -0.019em;
+    display: block;
+    margin-bottom: 3hv;
+    margin-left: 3hv;
+    margin-bottom: 30px; /* Ajusta el margen inferior para que se separe del título 1 */
+
+  }
+
+.container-filters{
+    height: auto;
+    width: 100%;
+    background: transparent;
+}

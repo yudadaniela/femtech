@@ -26,11 +26,11 @@ return (
 
 
       <li className="nav-item active">
-        <a className="nav-link" href="#">Networking <span class="sr-only">(current)</span></a>
+        <a className="nav-link" href="/networking">Networking <span class="sr-only">(current)</span></a>
       </li>
       
       <li className="nav-item">
-        <a className="nav-link" href="#">Eventos</a>
+        <a className="nav-link" href="/eventos">Eventos</a>
       </li>
 
       <li className="nav-item">
