@@ -1,32 +1,31 @@
-
 .fontpersonalized {
-    color: #321473;
-    margin-top: 30px;
+  color: #321473;
+  margin-top: 30px;
 }
 
 .principalhome{
-    background-color: #CBC9C9
+  background-color: #CBC9C9
 }
 
 .btn-gradient {
-    background-color: #321473;
-  }
-  .card-gradient {
-    background: linear-gradient(to right, #321473, #726AFF);
-    color: #fff;
-  }
+  background-color: #321473;
+}
+.card-gradient {
+  background: linear-gradient(to right, #321473, #726AFF);
+  color: #fff;
+}
 
-  .contenedor{
-   background-color: #c9c7c7;
-  }
+.contenedor{
+ background-color: #c9c7c7;
+}
 
-  .titulo{
-    color: #321473;
-    font-weight: bold;
-    margin-left: 50px;
-    padding: 20px;
-    background-color: #c9c7c7;
-  }
-  .contenedorprncipal{
-    background-color: #c9c7c7;
-  }
+.titulo{
+  color: #321473;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.contenedorprincipal{
+background-color: #c9c7c7;
+}

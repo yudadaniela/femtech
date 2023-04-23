@@ -3,16 +3,21 @@ import  "../styles/home.css"
 import Leonor from "../assets/leonor.jpg"
 import Astronuta from "../assets/astronauta.webp"
 import Beatriz from "../assets/Beatriz.jpg"
+import ModalHome from './ModalHome'
+import Footer from './Footer'
 
 export const Home = () => {
     return (
-    <div className='contenedorprncipal'>
+
+    <>
+    <ModalHome />
+    <div className='contenedorprincipal'>
       <h1 className='titulo'>Noticias</h1>
 <div className='contenedor'>
   
-  <div class="row row-cols-1 row-cols-md- g-4 p-5">
+  <div className="row row-cols-3 row-cols-md-1 g-4 p-5">
    
-  <div class="col ">
+  <div className="col ">
       <div class="card h-100">
         <img src={Astronuta} class="card-img-top" alt="..."></img>
         <div class="card-body card-gradient">
@@ -55,8 +60,10 @@ export const Home = () => {
     
   
       </div>
+      </div>
+      </>
 
-    </div>
+ 
       );
     };
     export default Home;
