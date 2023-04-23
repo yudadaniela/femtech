@@ -1,30 +1,62 @@
 import React from 'react'
 import  "../styles/home.css"
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import Leonor from "../assets/leonor.jpg"
+import Astronuta from "../assets/astronauta.webp"
+import Beatriz from "../assets/Beatriz.jpg"
 
 export const Home = () => {
     return (
-        <div className='principalhome f-screen'>
-        <Container>
-          <h1 className="fontpersonalized">Noticias</h1>
-          <Row xs={1} md={2} lg={4} className="g-4">
-            {[...Array(4)].map((_, idx) => (
-              <Col key={idx}>
-                <Card>
-                  <Card.Img variant="top" src="https://via.placeholder.com/150" />
-                  <Card.Body>
-                    <Card.Title>Card {idx + 1}</Card.Title>
-                    <Card.Text>
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
+    <div className='contenedorprncipal'>
+      <h1 className='titulo'>Noticias</h1>
+<div className='contenedor'>
+  
+  <div class="row row-cols-1 row-cols-md- g-4 p-5">
+   
+  <div class="col ">
+      <div class="card h-100">
+        <img src={Astronuta} class="card-img-top" alt="..."></img>
+        <div class="card-body card-gradient">
+          <p class="card-text">Leonor Espinosa es 
+  nombrada la mejor
+  chef del mundo
+  .</p>
+  <button type="button" class="btn btn-gradient text-white mx-auto d-block">Conoce más</button>
         </div>
+      </div>
+    </div>
+        
+    <div class="col ">
+      <div class="card h-100">
+        <img src={Beatriz} class="card-img-top" alt="..."></img>
+        <div class="card-body card-gradient">
+          <p class="card-text">Leonor Espinosa es 
+  nombrada la mejor
+  chef del mundo
+  .</p>
+  <button type="button" class="btn btn-gradient text-white mx-auto d-block">Conoce más</button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col ">
+      <div class="card h-100">
+        <img src={Leonor} class="card-img-top" alt="..."></img>
+        <div class="card-body card-gradient">
+          <p class="card-text">Leonor Espinosa es 
+  nombrada la mejor
+  chef del mundo
+  .</p>
+  <button type="button" class="btn btn-gradient text-white mx-auto d-block">Conoce más</button>
+        </div>
+      </div>
+    </div>
+  
+      </div>
+    
+  
+      </div>
+
+    </div>
       );
     };
     export default Home;
